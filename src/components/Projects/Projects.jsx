@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <div className='my-10'>
-      <div className=' w-full md:w-4/6 my-5'>
+      <div className='px-5 w-full md:w-4/6 my-5'>
           <p className='text-green-500 text-5xl mb-4'>Projects</p>
           <p className='text-white text-xl'>I have done several projects in both backend and frontend, however, 
             today I consider myself a backend developer in the area of microservices, 

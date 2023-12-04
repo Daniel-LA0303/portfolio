@@ -22,7 +22,7 @@ const ContactFixed = () => {
         </a>
         
         <div className='flex justify-center items-center'>
-            <div className=" border-l border-2 border-gray-300 h-10"></div>
+            <div className=" border-l border-2 border-gray-300 h-14"></div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@
 }
 
 body {
-  background: #3b3d43;
+  background: #1d1d1f;
 }
 
 button {
@@ -28,7 +28,7 @@ button {
 
 .navbar {
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   left: 0;
   display: flex;
@@ -174,7 +174,7 @@ body.open .navbar-menu {
   justify-content: flex-end;
 }
 .wrapper .row section{
-  background: #19191c;
+  background: #343435;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -323,5 +323,13 @@ body.open .navbar-menu {
 }
 
 .bg-black-card{
+  background-color: #343435;
+}
+
+.bg-footer{
   background-color: #19191c;
+}
+
+.index-bg{
+  z-index: -10;
 }
