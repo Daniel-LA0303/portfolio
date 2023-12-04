@@ -34,7 +34,7 @@ const About = () => {
     }, []);
 
   return (
-    <div className=' px-5 mt-60 text-white'>
+    <div className='px-5 mt-60 text-white'>
       <div className="text-center ">
         <p className='text-center text-green-500 text-2xl md:text-3xl mb-10'>I'm Luis Alberto</p>
         <span className=' text-3xl md:text-5xl' ref={typedRef} />

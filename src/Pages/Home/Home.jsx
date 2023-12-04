@@ -11,7 +11,7 @@ import Footer from '../../components/Footer/Footer'
 const Home = () => {
   return (
     <>
-        <div className=' w-full sm:w-5/6 md:w-8/12 m-auto -z-50'>
+        <div className=' w-full sm:w-5/6 md:w-8/12 m-auto index-bg'>
             <NavBar />
             <About />
             <Experience />
