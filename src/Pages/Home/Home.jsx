@@ -5,17 +5,25 @@ import Experience from '../../components/Experience/Experience'
 import Projects from '../../components/Projects/Projects'
 import Contact from '../../components/Contact/Contact'
 import Shpere from '../../components/TextShpere/Sphere'
+import ContactFixed from '../../components/Contact/ContactFixed'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
-    <div className=' w-full sm:w-5/6 m-auto'>
-        <NavBar />
-        <About />
-        <Experience />
-        <Projects />
-        <Shpere />
-        <Contact />
-    </div>
+    <>
+        <div className=' w-full sm:w-5/6 md:w-8/12 m-auto'>
+            <NavBar />
+            <About />
+            <Experience />
+            <Projects />
+            <Shpere />
+            <Contact />
+            
+            <ContactFixed />
+        </div>
+        <Footer />
+    </>
+
   )
 }
 

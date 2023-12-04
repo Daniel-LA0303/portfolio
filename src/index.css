@@ -314,10 +314,14 @@ body.open .navbar-menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 70vh;
 }
 
 .m-sphere-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.bg-black-card{
+  background-color: #19191c;
 }

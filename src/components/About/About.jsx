@@ -50,7 +50,7 @@ const About = () => {
         <div className=' w-full md:w-4/6'>
           <p className=' text-lg mb-5'>Introduction</p>
           <p className='text-green-500 text-5xl mb-4'>About Me</p>
-          <p>I am Mr. Luis Alberto, I am about to graduate with a degree in <span className='text-green-500 font-bold text-lg'>Computer Science Engineering.</span> Currently, 
+          <p className=' text-xl'>I am Mr. Luis Alberto, I am about to graduate with a degree in <span className='text-green-500 font-bold text-lg'>Computer Science Engineering.</span> Currently, 
             I am in my final semester of the program. I have experience as a backend programmer in <span className='text-green-500 font-bold text-lg'>Java and Node.js.</span> 
             Additionally, I am working on freelance projects involving microservices using <span className='bg-text-500 font-bold text-lg'>Spring Boot</span>, and I have experience in <span className='text-green-500 font-bold text-lg'>cloud computing.</span>
           </p>
