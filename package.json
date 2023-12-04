@@ -11,10 +11,16 @@
   },
   "dependencies": {
     "react": "^18.2.0",
+    "react-d3-cloud": "^1.0.6",
     "react-dom": "^18.2.0",
-    "typed.js": "^2.0.16"
+    "react-icon-cloud": "^1.1.2",
+    "simple-icons": "^5.14.0",
+    "TagCloud": "^2.2.0",
+    "typed.js": "^2.0.16",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
