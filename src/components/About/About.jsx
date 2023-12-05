@@ -34,7 +34,7 @@ const About = () => {
     }, []);
 
   return (
-    <div className='px-5 mt-60 text-white'>
+    <div className='px-5 mt-60 text-white' >
       <div className="text-center ">
         <p className='text-center text-green-500 text-2xl md:text-3xl mb-10'>I'm Luis Alberto</p>
         <span className=' text-3xl md:text-5xl' ref={typedRef} />
@@ -46,7 +46,7 @@ const About = () => {
           Download CV
         </button>
       </div>
-      <div className='grid grid-cols-1 my-20'>
+      <div className='grid grid-cols-1 my-20' id="about-me">
         <div className=' w-full md:w-4/6'>
           <p className=' text-lg mb-5'>Introduction</p>
           <p className='text-green-500 text-5xl mb-4'>About Me</p>

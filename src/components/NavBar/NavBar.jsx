@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,10 +29,42 @@ const Navbar = () => {
 
         <h1 className="navbar-title text-green-500">Daniel-LA | Developer</h1>
         <nav className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
-          <button type="button">About me</button>
-          <button type="button" className='active'>Experience</button>
-          <button type="button">Projects</button>
-          <button type="button">Contact</button>
+          <Link 
+            className=' cursor-pointer'
+            to='about-me'
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+            onClick={toggleMenuOpen}
+          >About me</Link>
+          <Link
+            className=' cursor-pointer'
+            to='experience'
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}           
+            onClick={toggleMenuOpen} 
+          >Experience</Link>
+          <Link
+            className=' cursor-pointer'
+            to='projects'
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}    
+            onClick={toggleMenuOpen}      
+          >Projects</Link>
+          <Link
+            className=' cursor-pointer'
+            to='contact'
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}   
+            onClick={toggleMenuOpen}       
+          >Contact</Link>
         </nav>
       </div>
     </>

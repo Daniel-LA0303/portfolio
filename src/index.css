@@ -333,3 +333,7 @@ body.open .navbar-menu {
 .index-bg{
   z-index: 999;
 }
+
+.text-repo{
+  font-size: 12px;
+}

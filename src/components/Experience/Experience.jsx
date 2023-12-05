@@ -9,7 +9,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className='text-white'>
+    <div className='text-white' id='experience'>
       <div className='px-5'>
         <p className='text-green-500 text-5xl mb-4'>Experience</p>
 
