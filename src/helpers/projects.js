@@ -2,8 +2,8 @@ import { v4 } from "uuid";
 const projects = [
     {
         id: v4(),
-        name: 'Project 2',
-        description: 'Description 2',
+        name: 'App Movies',
+        description: 'This project was developed with a movie api, it works with slider and css libraries.',
         linksRepo: [
             {
                 id: v4(),
@@ -43,8 +43,8 @@ const projects = [
     },
     {
         id: v4(),
-        name: 'Project 3',
-        description: 'Description 3',
+        name: 'App Restaurant',
+        description: 'The project simulates a dashboard of a coffee shop, the adminitrador can execute CRUD actions on products and orders.',
         linksRepo: [
             {
                 id: v4(),
@@ -83,8 +83,8 @@ const projects = [
     },
     {
         id: v4(),
-        name: 'Project 7',
-        description: 'Description 7',
+        name: 'App Restaurant',
+        description: 'In the project is represented a dahsboard of a restaurateur where the user can see sales and do CRUD actions.',
         linksRepo: [
             {
                 id: v4(),
@@ -123,8 +123,8 @@ const projects = [
     },
     {
         id: v4(),
-        name: 'Project 1',
-        description: 'Description 1',
+        name: 'FFMI Calculator',
+        description: 'The project is an FFMI calculator in which a user-friendly UI is worked.',
         linksRepo: [
             {
                 id: v4(),
@@ -163,8 +163,8 @@ const projects = [
     },
     {
         id: v4(),
-        name: 'Project 4',
-        description: 'Description 4',
+        name: 'My first CRUD',
+        description: 'In this project I present my first static CRUD work with ReactJS and Bootstrap.',
         linksRepo: [
             {
                 id: v4(),
@@ -203,8 +203,8 @@ const projects = [
     },
     {
         id: v4(),
-        name: 'Project 5',
-        description: 'Description 5',
+        name: 'Weather App',
+        description: 'With the help of the Open Weather api you can make a query form to cities that the api allows.',
         linksRepo: [
             {
                 id: v4(),
@@ -243,8 +243,8 @@ const projects = [
     },
     {
         id: v4(),
-        name: 'Project 6',
-        description: 'Description 6',
+        name: 'Password Generator',
+        description: 'Being one of my simplest projects could not miss the random password generator.',
         linksRepo: [
             {
                 id: v4(),
