@@ -1,30 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Card = ({project}) => {
+const Card = ({ project }) => {
+
     return (
-        <div className="bg-black-card rounded-lg p-4">
-            <img
-                src={project.img}
-                alt="Placeholder Image"
-                className="w-full h-48 rounded-md object-cover"
-            />
-            <div className="px-1 py-4">
-                <div className="font-bold text-xl mb-2">{project.name}</div>
-                <p className="text-base">{project.description}</p>
-            </div>
-            <div className="px-1 py-4">
-                <p>Skills:</p>
-                <div className="flex flex-wrap mb-3">
-                    {project.skills.map((skill, index) => (
-                        <span
-                            style={{ color: skill.color }}
-                            className="py-1 rounded-lg text-sm mr-2"
-                            key={skill.id}
-                        >
-                            #{skill.name}
-                        </span>
-                    ))}
+        <section class="mx-auto w-80  p-5">
+            <div class=" w-72 sm:w-80 h-fit group bg-black-card p-2 rounded-md cursor-pointer">
+                <div class="relative overflow-hidden">
+                    <img class=" h-64 sm:h-60 w-full object-cover rounded-md" src={project.img} alt="" />
+                    <div class="absolute h-full w-full bg-black/80 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <p className='p-2 text-sm'>{project.description}</p>
+                        <div className="flex flex-wrap p-2">
+                            {project.skills.map((skill, index) => (
+                                <span
+                                    style={{ color: skill.color }}
+                                    className="py-1 rounded-lg text-sm mr-2"
+                                    key={skill.id}
+                                >
+                                    #{skill.name}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
                 </div>
+                <h2 class="my-3 text-sm md:text-xl capitalize">{project.name}</h2>
                 {project.linksRepo.map((link, index) => (
                     <button className="bg-green-500 w-10/12 flex justify-between  mb-2 hover:bg-green-700 py-2 px-3 rounded transition duration-300 ease-in-out text-repo">
                       <a
@@ -46,7 +44,7 @@ const Card = ({project}) => {
                     </button>
                   ))}
             </div>
-        </div>
+        </section>
     )
 }
 

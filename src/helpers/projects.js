@@ -1,47 +1,7 @@
 import { v4 } from "uuid";
 const projects = [
     {
-        id: 1,
-        name: 'Project 1',
-        description: 'Description 1',
-        linksRepo: [
-            {
-                id: v4(),
-                type: 'Frontend',
-                link: 'https://github.com/Daniel-LA0303/FFMI'
-            },
-            {
-                id: v4(),
-                type: 'Demo',
-                link: 'https://kaleidoscopic-blini-48082b.netlify.app/'
-            },
-        ],
-        img: '/images/project_frontend1.png',
-        skills: [
-            {
-                id: v4(),
-                name: 'React',
-                color: '#61DBFB'
-            },
-            {
-                id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
-            },
-            {
-                id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
-            },
-            {
-                id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
-            }
-        ]
-    },
-    {
-        id: 2,
+        id: v4(),
         name: 'Project 2',
         description: 'Description 2',
         linksRepo: [
@@ -82,7 +42,7 @@ const projects = [
 
     },
     {
-        id: 3,
+        id: v4(),
         name: 'Project 3',
         description: 'Description 3',
         linksRepo: [
@@ -122,7 +82,87 @@ const projects = [
         ]
     },
     {
-        id: 4,
+        id: v4(),
+        name: 'Project 7',
+        description: 'Description 7',
+        linksRepo: [
+            {
+                id: v4(),
+                type: 'Frontend',
+                link: 'https://github.com/Daniel-LA0303/app_restaurante'
+            },
+            {
+                id: v4(),
+                type: 'Demo',
+                link: 'https://reliable-pony-b66b60.netlify.app/'
+            },
+        ],
+        img: '/images/project_frontend7.png',
+        skills: [
+            {
+                id: v4(),
+                name: 'React',
+                color: '#61DBFB'
+            },
+            {
+                id: v4(),
+                name: 'JavaScript',
+                color: '#F0DB4F'
+            },
+            {
+                id: v4(),
+                name: 'HTML',
+                color: '#E34F26'
+            },
+            {
+                id: v4(),
+                name: 'CSS',
+                color: '#2965F1'
+            }
+        ]
+    },
+    {
+        id: v4(),
+        name: 'Project 1',
+        description: 'Description 1',
+        linksRepo: [
+            {
+                id: v4(),
+                type: 'Frontend',
+                link: 'https://github.com/Daniel-LA0303/FFMI'
+            },
+            {
+                id: v4(),
+                type: 'Demo',
+                link: 'https://kaleidoscopic-blini-48082b.netlify.app/'
+            },
+        ],
+        img: '/images/project_frontend1.png',
+        skills: [
+            {
+                id: v4(),
+                name: 'React',
+                color: '#61DBFB'
+            },
+            {
+                id: v4(),
+                name: 'JavaScript',
+                color: '#F0DB4F'
+            },
+            {
+                id: v4(),
+                name: 'HTML',
+                color: '#E34F26'
+            },
+            {
+                id: v4(),
+                name: 'CSS',
+                color: '#2965F1'
+            }
+        ]
+    },
+    {
+        id: v4(),
         name: 'Project 4',
         description: 'Description 4',
         linksRepo: [
@@ -162,7 +202,7 @@ const projects = [
         ]
     },
     {
-        id: 5,
+        id: v4(),
         name: 'Project 5',
         description: 'Description 5',
         linksRepo: [
@@ -202,7 +242,7 @@ const projects = [
         ]
     },
     {
-        id: 6,
+        id: v4(),
         name: 'Project 6',
         description: 'Description 6',
         linksRepo: [
@@ -241,46 +281,7 @@ const projects = [
             }
         ]
     },
-    {
-        id: 7,
-        name: 'Project 7',
-        description: 'Description 7',
-        linksRepo: [
-            {
-                id: v4(),
-                type: 'Frontend',
-                link: 'https://github.com/Daniel-LA0303/app_restaurante'
-            },
-            {
-                id: v4(),
-                type: 'Demo',
-                link: 'https://reliable-pony-b66b60.netlify.app/'
-            },
-        ],
-        img: '/images/project_frontend7.png',
-        skills: [
-            {
-                id: v4(),
-                name: 'React',
-                color: '#61DBFB'
-            },
-            {
-                id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
-            },
-            {
-                id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
-            },
-            {
-                id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
-            }
-        ]
-    }
+
 ]
 
 export default projects;

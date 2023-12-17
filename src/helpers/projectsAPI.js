@@ -3,7 +3,69 @@ import { v4 } from "uuid";
 const projectsAPI = [
     {
         id: v4(),
-        name: 'API Rest with Spring Boot and MySQL',
+        name: 'Crud MCV with MySQL',
+        description: 'The project uses the MVC pattern and with the help of Spring, JPA and Thymeleaf we can do CRUD operations',
+        linksRepo: [
+            {
+                id: v4(),
+                type: 'Backend',
+                link: 'https://github.com/Daniel-LA0303/todos_app_SB'
+            }
+        ],
+        img: '/images/project_backend1.png',
+        skills: [
+            {
+                id: v4(),
+                name: 'Spring Boot',
+                color: '#6DB33F'
+            },
+            {
+                id: v4(),
+                name: 'Thymeleaf',
+                color: '#005744'
+            },
+            {
+                id: v4(),
+                name: 'MySQL',
+                color: '#4479A1'
+            }
+        ]
+    },
+    {
+        id: 2,
+        name: 'Crud MCV with MongoDB',
+        description: 'The project uses the MVC pattern and with the help of Spring, JPA and Thymeleaf we can do CRUD operations \n',
+        linksRepo: [
+            {
+                id: v4(),
+                type: 'Backend',
+                link: 'https://github.com/Daniel-LA0303/todos_app_SB_mysql'
+            }
+        ],
+        img: '/images/project_backend2.png',
+        skills: [
+            {
+                id: v4(),
+                name: 'Spring Boot',
+                color: '#6DB33F'
+            },
+            {
+                id: v4(),
+                name: 'Thymeleaf',
+                color: '#005744'
+            },
+            {
+                id: v4(),
+                name: 'MongoDB',
+                color: '#47A248'
+            },
+
+        ]
+
+    },
+    {
+        id: v4(),
+        name: 'API Rest Spring Boot + MySQL',
         description: 'It is a simple rest api built under Spring Boot layers and with MySQL database. The documentation was implemented with Swagger.',
         linksRepo: [
             {
@@ -38,7 +100,7 @@ const projectsAPI = [
     },
     {
         id: v4(),
-        name: 'API Rest with Spring Boot and MongoDB',
+        name: 'API Rest Spring Boot + MongoDB',
         description: 'It is a simple rest api built under Spring Boot layers and with MongoDB database. The documentation was implemented with Swagger.',
         linksRepo: [
             {
@@ -69,7 +131,7 @@ const projectsAPI = [
     },
     {
         id: v4(),
-        name: 'API Rest with NodeJS and MySQL',
+        name: 'API Rest NodeJS + MySQL',
         description: 'Implementation of rest api with NodeJS and MySQL and documented with Swagger. In this one I choose to use querys directly to the database.',
         linksRepo: [
             {
@@ -99,7 +161,7 @@ const projectsAPI = [
     },
     {
         id: v4(),
-        name: 'API Rest with NodeJS and MongoDB',
+        name: 'API Rest NodeJS + MongoDB',
         description: 'Using NodeJS and MongoDB a rest api was implemented with the help of orm mongoose and documented with Swagger.',
         linksRepo: [
             {
@@ -107,11 +169,6 @@ const projectsAPI = [
                 type: 'Backend',
                 link: 'https://github.com/Daniel-LA0303/blog_backend'
             },
-            {
-                id: v4(),
-                type: 'Frontend',
-                link: 'https://github.com/Daniel-LA0303/blog_frontend'
-            }
         ],
         img: '/images/project_backendAPI5.png',
         skills: [
@@ -283,68 +340,7 @@ const projectsFullstack = [
 
 
 const projectsMVC = [
-    {
-        id: v4(),
-        name: 'Crud MCV with MySQL',
-        description: 'The project uses the MVC pattern and with the help of Spring, JPA and Thymeleaf we can do CRUD operations',
-        linksRepo: [
-            {
-                id: v4(),
-                type: 'Backend',
-                link: 'https://github.com/Daniel-LA0303/todos_app_SB'
-            }
-        ],
-        img: '/images/project_backend1.png',
-        skills: [
-            {
-                id: v4(),
-                name: 'Spring Boot',
-                color: '#6DB33F'
-            },
-            {
-                id: v4(),
-                name: 'Thymeleaf',
-                color: '#005744'
-            },
-            {
-                id: v4(),
-                name: 'MySQL',
-                color: '#4479A1'
-            }
-        ]
-    },
-    {
-        id: 2,
-        name: 'Crud MCV with MongoDB',
-        description: 'The project uses the MVC pattern and with the help of Spring, JPA and Thymeleaf we can do CRUD operations',
-        linksRepo: [
-            {
-                id: v4(),
-                type: 'Backend',
-                link: 'https://github.com/Daniel-LA0303/todos_app_SB_mysql'
-            }
-        ],
-        img: '/images/project_backend2.png',
-        skills: [
-            {
-                id: v4(),
-                name: 'Spring Boot',
-                color: '#6DB33F'
-            },
-            {
-                id: v4(),
-                name: 'Thymeleaf',
-                color: '#005744'
-            },
-            {
-                id: v4(),
-                name: 'MongoDB',
-                color: '#47A248'
-            },
 
-        ]
-
-    },
 ]
 
 
