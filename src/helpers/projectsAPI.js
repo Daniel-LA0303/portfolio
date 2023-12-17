@@ -4,7 +4,7 @@ const projectsAPI = [
     {
         id: v4(),
         name: 'API Rest with Spring Boot and MySQL',
-        description: 'Description 1',
+        description: 'It is a simple rest api built under Spring Boot layers and with MySQL database. The documentation was implemented with Swagger.',
         linksRepo: [
             {
                 id: v4(),
@@ -16,30 +16,30 @@ const projectsAPI = [
         skills: [
             {
                 id: v4(),
-                name: 'React',
-                color: '#61DBFB'
+                name: 'Spring Boot',
+                color: '#6DB33F'
             },
             {
                 id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
+                name: 'MySQL',
+                color: '#4479A1'
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
+                name: 'JPA',
+                color: '#6C757D'
             },
             {
                 id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'Validation',
+                color: '#6C757D'
             }
         ]
     },
     {
         id: v4(),
         name: 'API Rest with Spring Boot and MongoDB',
-        description: 'Description 2',
+        description: 'It is a simple rest api built under Spring Boot layers and with MongoDB database. The documentation was implemented with Swagger.',
         linksRepo: [
             {
                 id: v4(),
@@ -51,23 +51,18 @@ const projectsAPI = [
         skills: [
             {
                 id: v4(),
-                name: 'React',
-                color: '#61DBFB'
+                name: 'Spring Boot',
+                color: '#6DB33F'
             },
             {
                 id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
+                name: 'MongoDB',
+                color: '#47A248'
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
-            },
-            {
-                id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'Validation',
+                color: '#6C757D'
             }
         ]
 
@@ -75,7 +70,7 @@ const projectsAPI = [
     {
         id: v4(),
         name: 'API Rest with NodeJS and MySQL',
-        description: 'Description 3',
+        description: 'Implementation of rest api with NodeJS and MySQL and documented with Swagger. In this one I choose to use querys directly to the database.',
         linksRepo: [
             {
                 id: v4(),
@@ -87,30 +82,25 @@ const projectsAPI = [
         skills: [
             {
                 id: v4(),
-                name: 'React',
-                color: '#61DBFB'
+                name: 'Node.js',
+                color: '#8CC84B'
             },
             {
                 id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
+                name: 'MySQL',
+                color: '#4479A1'
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
-            },
-            {
-                id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'Validation',
+                color: '#6C757D'
             }
         ]
     },
     {
         id: v4(),
         name: 'API Rest with NodeJS and MongoDB',
-        description: 'Description 3',
+        description: 'Using NodeJS and MongoDB a rest api was implemented with the help of orm mongoose and documented with Swagger.',
         linksRepo: [
             {
                 id: v4(),
@@ -127,23 +117,18 @@ const projectsAPI = [
         skills: [
             {
                 id: v4(),
-                name: 'React',
-                color: '#61DBFB'
+                name: 'Node.js',
+                color: '#8CC84B'
             },
             {
                 id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
+                name: 'MongoDB',
+                color: '#47A248'
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
-            },
-            {
-                id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'Validation',
+                color: '#6C757D'
             }
         ]
     },
@@ -154,7 +139,7 @@ const projectsFullstack = [
     {
         id: v4(),
         name: 'Project App Users',
-        description: 'Description 3',
+        description: 'This is a project developed with Spring Boot and React, you can create, update and delete user logs, as long as you have the admin role as the project handles authentication with JWT and Spring Security, in the frontend we use Hooks and Context API to manage the state of the application.',
         linksRepo: [
             {
                 id: v4(),
@@ -181,20 +166,30 @@ const projectsFullstack = [
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
+                name: 'Spring Boot',
+                color: '#6DB33F'
             },
             {
                 id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'JWT',
+                color: '#000000'
+            },
+            {
+                id: v4(),
+                name: 'Spring Security',
+                color: '#6DB33F'
+            },
+            {
+                id: v4(),
+                name: 'MySQL',
+                color: '#4479A1'
             }
         ]
     },
     {
         id: v4(),
         name: 'Project Inventory and Clients',
-        description: 'Description 3',
+        description: 'This project handles the Graphql architecture with a server and an Apollo client, the project was made with the MERN stack and handles authentication with JWT, the project is a CRM where you can create, update and delete clients, products and orders, we also use a filtering of better customers and sellers.',
         linksRepo: [
             {
                 id: v4(),
@@ -221,20 +216,31 @@ const projectsFullstack = [
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
+                name: 'Apollo',
+                color: '#fff'
             },
             {
                 id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'Express.js',
+                color: '#000000'
+            },
+            {
+                id: v4(),
+                name: 'Node.js',
+                color: '#8CC84B'
+            },
+            {
+                id: v4(),
+                name: 'MongoDB',
+                color: '#47A248'
             }
+
         ]
     },
     {
         id: v4(),
         name: 'Blog system with Stack MERN',
-        description: 'Description 3',
+        description: 'The Blog System project was implemented under a monolithic architecture, uses advanced tools in the frontend such as Redux, React Router Dom and CSS libraries, authentication works with JWT, in addition the project simulates a blog that has functions such as like, follow users, comment posts, advanced filtering etc.',
         linksRepo: [
             {
                 id: v4(),
@@ -254,20 +260,21 @@ const projectsFullstack = [
                 name: 'React',
                 color: '#61DBFB'
             },
+
             {
                 id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
+                name: 'Express.js',
+                color: '#000000'
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
+                name: 'Node.js',
+                color: '#8CC84B'
             },
             {
                 id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'MongoDB',
+                color: '#47A248'
             }
         ]
     },
@@ -277,9 +284,9 @@ const projectsFullstack = [
 
 const projectsMVC = [
     {
-        id: 1,
-        name: 'Project MVC with Spring Boot, MySQL and Thymeleaf',
-        description: 'Description 1',
+        id: v4(),
+        name: 'Crud MCV with MySQL',
+        description: 'The project uses the MVC pattern and with the help of Spring, JPA and Thymeleaf we can do CRUD operations',
         linksRepo: [
             {
                 id: v4(),
@@ -291,30 +298,25 @@ const projectsMVC = [
         skills: [
             {
                 id: v4(),
-                name: 'React',
-                color: '#61DBFB'
+                name: 'Spring Boot',
+                color: '#6DB33F'
             },
             {
                 id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
+                name: 'Thymeleaf',
+                color: '#005744'
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
-            },
-            {
-                id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
+                name: 'MySQL',
+                color: '#4479A1'
             }
         ]
     },
     {
         id: 2,
-        name: 'Project MVC with Spring Boot, MySQL and Thymeleaf',
-        description: 'Description 2',
+        name: 'Crud MCV with MongoDB',
+        description: 'The project uses the MVC pattern and with the help of Spring, JPA and Thymeleaf we can do CRUD operations',
         linksRepo: [
             {
                 id: v4(),
@@ -326,24 +328,20 @@ const projectsMVC = [
         skills: [
             {
                 id: v4(),
-                name: 'React',
-                color: '#61DBFB'
+                name: 'Spring Boot',
+                color: '#6DB33F'
             },
             {
                 id: v4(),
-                name: 'JavaScript',
-                color: '#F0DB4F'
+                name: 'Thymeleaf',
+                color: '#005744'
             },
             {
                 id: v4(),
-                name: 'HTML',
-                color: '#E34F26'
+                name: 'MongoDB',
+                color: '#47A248'
             },
-            {
-                id: v4(),
-                name: 'CSS',
-                color: '#2965F1'
-            }
+
         ]
 
     },

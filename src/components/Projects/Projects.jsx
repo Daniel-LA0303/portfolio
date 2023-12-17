@@ -18,29 +18,31 @@ const Projects = () => {
 
       <div className="text-white  flex items-center justify-center ">
         <div className="container mx-auto p-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
-            {projects.map((project, index) => (
+
+          <p className="text-green-500 text-3xl mb-4 my-10">Projects FullStack</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mb-10">
+            {projectsFullstack.map((project, index) => (
               <Card project={project} key={index} />
             ))}
           </div>
 
-          <p className="text-green-500 text-5xl mb-4 my-10">Projects Backend</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
-            {projectsMVC.map((project, index) => (
-              <Card project={project} key={index} />
-            ))}
-          </div>
-
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+          <p className="text-green-500 text-3xl mb-4 my-10">Projects Backend</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mb-10">
             {projectsAPI.map((project, index) => (
               <Card project={project} key={index} />
             ))}
           </div>
 
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mb-10">
+            {projectsMVC.map((project, index) => (
+              <Card project={project} key={index} />
+            ))}
+          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
-            {projectsFullstack.map((project, index) => (
+          <p className="text-green-500 text-3xl mb-4 my-10">Projects Frontend</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mb-10">
+            {projects.map((project, index) => (
               <Card project={project} key={index} />
             ))}
           </div>

@@ -16,13 +16,13 @@ const About = () => {
 
     useEffect(() => {
       const options = {
-        strings: ['Backend Developer', 'Java Developer', 'NodeJS Developer'],
+        strings: ['NodeJS Developer', 'Java Developer', 'Backend Developer'],
         typeSpeed: 100,
         backSpeed: 50,
-        startDelay: 500, // Retraso antes de comenzar la animación
-        backDelay: 500, // Retraso antes de retroceder la animación
-        showCursor: true, // Mostrar el cursor
-        cursorChar: '|', // Carácter del cursor
+        startDelay: 500, 
+        backDelay: 500, 
+        showCursor: true, 
+        cursorChar: '|', 
         loop: false,
       };
   
@@ -35,17 +35,24 @@ const About = () => {
 
   return (
     <div className='px-5 mt-60 text-white' >
-      <div className="text-center ">
-        <p className='text-center text-green-500 text-2xl md:text-3xl mb-10'>I'm Luis Alberto</p>
-        <span className=' text-3xl md:text-5xl' ref={typedRef} />
-        <div className="mb-10"></div>
-        <button
-          onClick={downloadCV}
-          className="bg-green-500 hover:bg-green-700 py-2 px-4 rounded transition duration-300 ease-in-out"
-        >
-          Download CV
-        </button>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+        <div className='pt-10'>
+          <p className='text-green-500 text-2xl md:text-3xl mb-10'>I'm Luis Alberto</p>
+          <span className=' text-xl md:text-3xl lg:text-5xl' ref={typedRef} />
+          <div className="mb-10"></div>
+          <button
+            onClick={downloadCV}
+            className="bg-green-500 hover:bg-green-700 py-2 px-4 rounded transition duration-300 ease-in-out"
+          >
+            Download CV
+          </button>
+        </div>
+        <div className=' mx-auto w-60 md:w-full'>
+          
+          <img src="/images/logo.gif" alt="" className=""/>
+        </div>
       </div>
+
       <div className='grid grid-cols-1 my-20' id="about-me">
         <div className=' w-full md:w-4/6'>
           <p className=' text-lg mb-5'>Introduction</p>

@@ -12,7 +12,8 @@ const Sphere = () => {
     wheelZoom: true
   };
   const iconSlugs = [
-    "java", "spring","react","html5","nodedotjs","express","nextdotjs","prisma","amazonaws","postgresql","firebase","battledotnet","nginx","vercel","canva","testinglibrary","jest","cypress","docker","git","figshare","jira","github","gitlab","electron","visualstudiocode","androidstudio","sonarqube","figma"
+    "java", "spring","react","html5","nodedotjs","express","nextdotjs","amazonaws","postgresql","firebase","vercel","jest","docker","git","github","visualstudiocode", "intellijidea",
+    "mysql", "mongodb", "linux", "typescript", "javascript", "python", "css3", "kubernetes", "junit5", "amazons3"
   ];
   const iconTags = iconSlugs.map((slug) => ({
     id: slug,
