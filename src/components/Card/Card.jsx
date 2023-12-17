@@ -22,7 +22,7 @@ const Card = ({ project }) => {
                         </div>
                     </div>
                 </div>
-                <h2 class="my-3 text-sm md:text-xl capitalize">{project.name}</h2>
+                <h2 class="my-6 text-sm md:text-xl capitalize">{project.name}</h2>
                 {project.linksRepo.map((link, index) => (
                     <button className="bg-green-500 w-10/12 flex justify-between  mb-2 hover:bg-green-700 py-2 px-3 rounded transition duration-300 ease-in-out text-repo">
                       <a

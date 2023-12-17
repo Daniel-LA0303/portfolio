@@ -21,10 +21,15 @@ const Projects = () => {
         <div className="container mx-auto p-4">
 
           <p className="text-green-500 text-3xl mb-4 my-10">Projects FullStack</p>
-          <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-4 mb-10">
+
+          <div className="hidden sm:grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-4 mb-10">
             {projectsFullstack.map((project, index) => (
               <Card project={project} key={index} />
             ))}
+          </div>
+
+          <div className=" block sm:hidden">
+            <SliderSlick data={projectsFullstack} speed={600} autoplay={3000}/>
           </div>
 
           <p className="text-green-500 text-3xl mb-4 my-10">Projects Backend</p>

@@ -338,23 +338,18 @@ body.open .navbar-menu {
   font-size: 12px;
 }
 
-/* Mantén la regla de .content-div:hover para aplicar el fondo durante el hover */
 .content-div:hover {
   background-image: linear-gradient(to right, rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801));
 }
 
-/* Ajusta el estilo de .image-cover para que no interfiera con el hover de .content-div */
 .image-cover {
   height: 260px;
 }
 
-/* Ajusta el hover de .fd-cl para que no interfiera con el hover de .content-div */
 .content-div:hover .fd-cl {
   opacity: 0.25;
 }
 
-/* Ajusta el hover de .fd-sh para que no interfiera con el hover de .content-div */
 .content-div:hover .fd-sh {
   opacity: 1;
 }
-

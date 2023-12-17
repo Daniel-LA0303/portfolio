@@ -34,7 +34,7 @@ const About = () => {
     }, []);
 
   return (
-    <div className='px-5 mt-60 text-white' >
+    <div className='px-5 mt-20 sm:mt-60 text-white' >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
         <div className='pt-10'>
           <p className='text-green-500 text-2xl md:text-3xl mb-10'>I'm Luis Alberto</p>
@@ -63,7 +63,6 @@ const About = () => {
           </p>
         </div>
         <div className='w-full'>
-          {/* Contenido del segundo div */}
         </div>
       </div>
     </div>
