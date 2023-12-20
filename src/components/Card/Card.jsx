@@ -4,7 +4,9 @@ const Card = ({ project }) => {
 
     return (
         <section class="mx-auto w-80  p-5">
-            <div class=" w-72 sm:w-80 h-fit group bg-black-card p-2 rounded-md cursor-pointer">
+            <div class=" w-72 sm:w-80 h-fit group bg-black-card p-2 rounded-md cursor-pointer"
+
+            >
                 <div class="relative overflow-hidden">
                     <img class=" h-64 sm:h-60 w-full object-cover rounded-md" src={project.img} alt="" />
                     <div class="absolute h-full w-full bg-black/80 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -21,6 +23,9 @@ const Card = ({ project }) => {
                             ))}
                         </div>
                     </div>
+                    <div class="absolute top-0 h-full z-50 w-full flex items-center justify-center transition-all duration-300">
+        <p className="text-green-500 font-bold text-3xl  group-hover:opacity-0">Hover me</p>
+      </div>
                 </div>
                 <h2 class="my-6 text-sm md:text-xl capitalize">{project.name}</h2>
                 {project.linksRepo.map((link, index) => (
