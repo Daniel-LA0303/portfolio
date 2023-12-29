@@ -9,9 +9,9 @@ const Experience = () => {
   ];
 
   return (
-    <div className='text-white' id='experience'>
-      <div className='px-5'>
-        <p className='text-green-500 text-5xl mb-4'>Experience</p>
+    <div className='text-white mt-10 w-full px-5 sm:w-5/6 md:w-10/12 m-auto index-bg' id='experience'>
+      <div className=''>
+        <p className='text-green-500  text-3xl sm:text-5xl mb-4'>Experience</p>
       </div>
       <section className="timeline-section">
         <div className="timeline-items">

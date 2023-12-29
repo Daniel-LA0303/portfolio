@@ -10,7 +10,7 @@ const ParticlesBG = () => {
             particles:{
                 move: {
                     enable: true,
-                    speed: 2,
+                    speed: 0.5,
                     direction: "none",
                     random: false,
                     straight: false,
@@ -29,17 +29,17 @@ const ParticlesBG = () => {
                     },
                   },
                   shape: {
-                    type: "star",
+                    type: "circle",
                     stroke: {
                       width: 0.1,
-                      color: "#ffffff", 
+                      color: "#808080CC",
                     },
                     polygon: {
-                      nb_sides: 5, 
+                      nb_sides: 1, 
                     },
                   },
                   size: {
-                    value: 2,
+                    value: 1,
                   },
                   line_linked: {
                     enable: false,

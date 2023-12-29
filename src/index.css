@@ -131,7 +131,7 @@ header{
       top: 100%;
       right: -100%;
       width: 270px;
-      height: 24vh;
+      height: 200px;
       background: #16C55EFF;
       display: flex;
       flex-direction: column;
@@ -218,7 +218,7 @@ header{
 .timeline-section{
 	/* background-color: #24292d; */
 	min-height: 100vh;
-	padding: 100px 15px;
+	padding: 40px 15px;
 }
 .timeline-items{
 	max-width: 1000px;

@@ -12,27 +12,31 @@ const Sphere = () => {
     wheelZoom: true
   };
   const iconSlugs = [
-    "java", "spring","react","html5","nodedotjs","express","nextdotjs","amazonaws","postgresql","firebase","vercel","jest","docker","git","github","visualstudiocode", "intellijidea",
+    "java", "spring", "react", "html5", "nodedotjs", "express", "nextdotjs", "amazonaws", "postgresql", "firebase", "vercel", "jest", "docker", "git", "github", "visualstudiocode", "intellijidea",
     "mysql", "mongodb", "linux", "typescript", "javascript", "python", "css3", "kubernetes", "junit5", "amazons3"
   ];
   const iconTags = iconSlugs.map((slug) => ({
     id: slug,
-  simpleIcon: allIcons.Get(slug) }));
-return (
-  <div>
-    <p className='text-green-500 text-5xl text-center'>Skills</p>
-    <div className="container-sphere m-sphere-auto">
-      <IconCloud
-        key={v4()}
-        id={"icon"}
-        minContrastRatio={1}
-        iconSize={40}
-        backgroundHexColor={"#fff"}
-        fallbackHexColor={"#000"}
-        tags={iconTags}
-        tagCanvasOptions={tagCanvasOptions}
-      />
+    simpleIcon: allIcons.Get(slug)
+  }));
+  return (
+    <div className="w-full bg-black-card">
+      <div className="w-full px-5 sm:w-5/6 md:w-10/12 mt-20 m-auto index-bg">
+        <p className='text-green-500 text-3xl sm:text-5xl text-center py-10'>Skills</p>
+        <div className="container-sphere m-sphere-auto">
+          <IconCloud
+            key={v4()}
+            id={"icon"}
+            minContrastRatio={1}
+            iconSize={40}
+            backgroundHexColor={"#fff"}
+            fallbackHexColor={"#000"}
+            tags={iconTags}
+            tagCanvasOptions={tagCanvasOptions}
+          />
+        </div>
+      </div>
     </div>
-  </div>
-)}
+  )
+}
 export default Sphere;
