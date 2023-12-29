@@ -4,7 +4,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  height: 48px;
+  height: 38px;
   padding: 0 24px 0 48px;
   background: #16C55EFF;
   border: 0;
@@ -29,7 +29,7 @@ button.launching span {
   position: absolute;
   top: 50%;
   left: 50%;
-  translate: -44px -50%;
+  translate: -64px -50%;
   width: 18px;
   height: 18px;
 }
@@ -80,6 +80,10 @@ button.launching .rocket {
   }
 }
 
+button.launching {
+  animation: rocket 3s forwards both;
+}
+
 button.launching .smoke {
-  animation: smoke 3s infinite;
+  animation: smoke 3s forwards;
 }

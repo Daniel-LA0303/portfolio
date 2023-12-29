@@ -6,14 +6,20 @@ import CVFile from '../../assets/Luis_Alberto_Zacarias_Daniel_CV.pdf';
 
 const Button = () => {
   const [isLaunching, setIsLaunching] = useState(false);
+  const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
   const handleClick = async () => {
-    setIsLaunching(true);
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    if (!isButtonDisabled) {
+      setIsLaunching(true);
+      setIsButtonDisabled(true);
 
-    setIsLaunching(false);
+      await new Promise(resolve => setTimeout(resolve, 3000));
 
-    downloadCV();
+      setIsLaunching(false);
+      setIsButtonDisabled(false);
+
+      downloadCV();
+    }
   };
 
   const downloadCV = () => {
@@ -28,9 +34,11 @@ const Button = () => {
 
   return (
     <div className="flex justify-center">
-    <button onClick={handleClick} className={` hover:bg-green-400 ${isLaunching ? 'launching' : ''}`}>
+    <button 
+      disabled={isButtonDisabled}
+      onClick={handleClick} className={` bg-green-500 hover:bg-green-400 w-40 ${isLaunching ? 'launching' : ''}`}>
       <img className="rocket" src={rocket} alt="Rocket" />
-      <span>Launch</span>
+      <span className=" text-sm text-center w-full">Download</span>
       <img className="smoke" src={smoke} alt="Smoke" />
     </button>
     </div>
