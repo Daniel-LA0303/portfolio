@@ -38,7 +38,7 @@ const Button = () => {
       disabled={isButtonDisabled}
       onClick={handleClick} className={` bg-green-500 hover:bg-green-400 w-40 ${isLaunching ? 'launching' : ''}`}>
       <img className="rocket" src={rocket} alt="Rocket" />
-      <span className=" text-sm text-center w-full">Download</span>
+      <span className=" text-sm text-center w-full">Download CV</span>
       <img className="smoke" src={smoke} alt="Smoke" />
     </button>
     </div>

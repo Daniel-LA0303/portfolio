@@ -17,6 +17,10 @@ body {
   background: #1d1d1f;
 }
 
+.dropdown-bg {
+background: #1d1d1f;
+}
+
 button {
   border: 0;
   padding: 0;
@@ -131,7 +135,7 @@ header{
       top: 100%;
       right: -100%;
       width: 270px;
-      height: 200px;
+      height: 250px;
       background: #16C55EFF;
       display: flex;
       flex-direction: column;
