@@ -17,32 +17,43 @@ const Contact = () => {
           <p className="mb-8 lg:mb-16 font-light  text-gray-500 dark:text-gray-400 sm:text-xl">Contact me through the following media. </p>
 
           <div className=" ">
-            <div className='flex justify-start mb-2 items-center'>        
+            <div className='mb-2'>        
               <a 
                 className='cursor-pointer'
                 href="https://www.linkedin.com/in/luis-alberto-zacarias-daniel-137118209/"
                 target='_blank'
+                style={{ display: 'flex', alignItems: 'center' }}
               >
                 <img src="/images/linkedin.png" width={20}  alt="" /> 
+                <p className=' ml-2 text-white'>Linkedin</p>
               </a>
-              <p className=' ml-2 text-white'>Linkedin</p>
+              
             </div>
 
-            <div className='flex justify-start mb-2 items-center'>
+            <div className='mb-2'>
 
-                <a 
-                    className='cursor-pointer'
-                    href="https://github.com/Daniel-LA0303" 
-                    target='_blank'
-                >
-                    <img src="/images/GITHUB.png" width={20} alt="" />
-                </a>
-                <p className=' ml-2 text-white'>Github</p>
+            <a
+              className='cursor-pointer'
+              href="https://github.com/Daniel-LA0303"
+              target='_blank'
+              style={{ display: 'flex', alignItems: 'center' }}
+            >   
+                <img src="/images/GITHUB.png" width={20} alt="" />
+                <p className='ml-2 text-white'>Github</p>
+            </a>
+
+                
             </div>
 
-            <div className='flex justify-start mb-2 items-center cursor-pointer'>
-              <FontAwesomeIcon icon={faMailBulk } className='text-white' />
-            <p className=' ml-2 text-white'>03lazd030399@gmail.com</p>
+            <div className='mb-2 cursor-pointer'>
+              <a 
+                href="mailto:03lazd030399@gmail.com"
+                style={{ display: 'flex', alignItems: 'center' }}
+              >
+                <FontAwesomeIcon icon={faMailBulk } className='text-white' />
+                <p className=' ml-2 text-white'>03lazd030399@gmail.com</p>
+              </a>
+
             </div>
 
             <div className='flex justify-start mb-2 items-center cursor-pointer' onClick={abrirWhatsApp}>

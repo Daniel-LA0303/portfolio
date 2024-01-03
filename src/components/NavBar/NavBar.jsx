@@ -88,19 +88,25 @@ const Navbar = () => {
             >
               <div className="py-1" role="none">
                 <button 
-                  onClick={() => {isDropOpen && setIsDropOpen(false)}}
+                  onClick={() => {
+                    menuAbierto && setMenuAbierto(false);
+                    isDropOpen && setIsDropOpen(false)}}
                   className="flex justify-between  px-4 py-4 rounded-md text-center text-sm text-white hover:text-green-500 transition-transform transform hover:scale-110 " role="menuitem" tabIndex="-1" id="menu-item-0">
                   <span >Spanish</span>
                   <img src="/images/spain.png" alt="spain" width={20} />
                 </button>
                 <button 
-                  onClick={() => {isDropOpen && setIsDropOpen(false)}}
+                  onClick={() => {
+                    menuAbierto && setMenuAbierto(false);
+                    isDropOpen && setIsDropOpen(false)}}
                   className="flex justify-between  px-4 py-4 rounded-md text-center text-sm text-white hover:text-green-500 transition-transform transform hover:scale-110" role="menuitem" tabIndex="-1" id="menu-item-1">
                   <span>English</span>
                   <img src="/images/usa.png" alt="usa" width={20} />
                 </button>
                 <button 
-                  onClick={() => {isDropOpen && setIsDropOpen(false)}}
+                  onClick={() => {
+                    menuAbierto && setMenuAbierto(false);
+                    isDropOpen && setIsDropOpen(false)}}
                   className="flex justify-between  px-4 py-4 rounded-md text-center text-sm text-white hover:text-green-500 transition-transform transform hover:scale-110" role="menuitem" tabIndex="-1" id="menu-item-2">
                   <span>French</span>
                   <img src="/images/france.png" alt="france" width={20} />
