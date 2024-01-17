@@ -32,6 +32,10 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
+              onClick={() => {
+                menuAbierto && setMenuAbierto(false);
+                isDropOpen && setIsDropOpen(false);
+              }}
             >About me</Link>
           </li>
           <li>
@@ -42,6 +46,10 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
+              onClick={() => {
+                menuAbierto && setMenuAbierto(false);
+                isDropOpen && setIsDropOpen(false);
+              }}
             >Experience</Link>
           </li>
           <li>
@@ -52,6 +60,10 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
+              onClick={() => {
+                menuAbierto && setMenuAbierto(false);
+                isDropOpen && setIsDropOpen(false);
+              }}
             >Projects</Link>
           </li>
           <li>
@@ -62,6 +74,10 @@ const Navbar = () => {
               smooth={true}
               offset={-80}
               duration={500}
+              onClick={() => {
+                menuAbierto && setMenuAbierto(false);
+                isDropOpen && setIsDropOpen(false);
+              }}
             >Contact</Link>
           </li>
           <li className="relative inline-block text-left">

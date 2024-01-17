@@ -54,7 +54,7 @@ const projects = [
             {
                 id: v4(),
                 type: 'Demo',
-                link: 'https://github.com/Daniel-LA0303/app_restaurante'
+                link: 'https://magnificent-lamington-969efd.netlify.app'
             },
         ],
         img: '/images/project_frontend3.png',

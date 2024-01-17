@@ -95,7 +95,7 @@ const Experience = () => {
           </div>
           <div className="timeline-item">
             <div className="timeline-dot"></div>
-            <div className="timeline-date">Aug 2014 - Jul 2014</div>
+            <div className="timeline-date">Aug 2014 - Jul 2017</div>
             <div className="timeline-content">
               <h3 className=' text-lg sm:text-xl'>Technical Bachelor Degree in Programming </h3>
               <p className=' text-sm text-[#c8c8c8]'>CETis No. 67 “Daniel Cabrera Rivera”, MX</p>
